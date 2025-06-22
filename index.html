@@ -47,13 +47,19 @@
       </p>
 
       <div class="coin-div">
-        <img class="coin" src="" />
+        <img id="coin" src="./resources/heads.svg" />
         <img class="shadow" src="./resources/shadow.svg" />
       </div>
-      <span id="result">Result</span>
-      <button>
-        <span class="front">RANDOM</span>
-      </button>
+      <span id="result"></span>
+      <span id="attempts">Attempts: 0</span>
+      <div class="buttons-div">
+        <button>
+          <span class="front">FLIP</span>
+        </button>
+        <button id="reset">
+          <span class="front-reset">Reset</span>
+        </button>
+      </div>
     </main>
 
     <div class="author-info">
@@ -62,5 +68,7 @@
         >devChallenges.io</a
       >.
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
